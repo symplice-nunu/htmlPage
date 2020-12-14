@@ -1,0 +1,105 @@
+.containerr{
+    width: 100%;
+    height: auto;
+    background: lightslategray;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    
+    flex-flow: wrap;
+
+}
+.box{
+    width: 32.4%;
+    height: 300px;
+    background: #ccff66;
+    box-sizing: border-box;
+    font-size: 50px;
+  margin: 5px;
+    
+    border-radius: 0.1em;
+}
+.box p{
+    
+    font-family: arial;
+    font-size: 15px;
+    color: #111;
+    line-height: 23px;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+.boxx p{
+    
+    font-family: arial;
+    font-size: 15px;
+    color: #111;
+    line-height: 45px;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+
+.box h2{
+    
+    font-family: arial;
+    font-size: 26px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+.boxx h2{
+    
+    font-family: arial;
+    font-size: 26px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+ol{
+    font-size: 15px;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+.boxx{
+    
+    height: 300px;
+    background:  #d6d6c2;
+    box-sizing: border-box;
+    font-size: 50px;
+  margin: 5px;
+    
+    border-radius: 0.1em;
+}
+@media screen and (max-width:1200px){
+    .box{
+        width: 32%;
+    }
+    .boxx{
+        width: 12%;
+    }
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 96%;
+    }
+    .boxx{
+        width: 99%;
+    }
+    .box p{
+    
+        font-family: arial;
+        font-size: 15px;
+        color: #111;
+        line-height: 23px;
+        text-align: center;
+        
+        
+    }
+   
+}
