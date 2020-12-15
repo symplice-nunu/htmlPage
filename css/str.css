@@ -41,6 +41,7 @@
     
 }
 
+
 .box h2{
     
     font-family: arial;
@@ -66,8 +67,11 @@ ol{
     margin-left: 2.5em;
     margin-top: 1em;
 }
+.boximg{
+    width: 100%;
+}
 .boxx{
-    
+    width: 100%;
     height: 300px;
     background:  #d6d6c2;
     box-sizing: border-box;
@@ -76,30 +80,29 @@ ol{
     
     border-radius: 0.1em;
 }
-@media screen and (max-width:1200px){
-    .box{
+@media screen and (max-width:1024px){
+    /* .box{
         width: 32%;
     }
     .boxx{
         width: 12%;
+    } */
+    /* body{
+        display: none;
     }
+} */
+.box{
+    width: 99%;
 }
-@media screen and (max-width:600px){
-    .box{
-        width: 96%;
-    }
-    .boxx{
-        width: 99%;
-    }
-    .box p{
+.boxx{
+    width: 99%;
+}
+.recent p{
+    line-height: 38px;
     
-        font-family: arial;
-        font-size: 15px;
-        color: #111;
-        line-height: 23px;
-        text-align: center;
-        
-        
-    }
-   
+    width: 59.5em;
+    margin-left:-1em;
+    
 }
+}
+
